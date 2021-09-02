@@ -42,6 +42,8 @@ properties:
   biography:
     type: string
     example: 自己PR/紹介
+  avatar_url:
+    type: string
 required:
   - id
   - first_name
