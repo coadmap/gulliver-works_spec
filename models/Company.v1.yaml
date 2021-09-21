@@ -30,7 +30,7 @@ properties:
     example: 1520
   is_listed:
     type: boolean
-    default: 'false'
+    default: false
     example: 'false'
   representative:
     type: string
@@ -59,7 +59,7 @@ properties:
     description: ''
     items:
       $ref: ./Industry.v1.yaml
-  cover_image_url:
+  logo_url:
     type: string
 required:
   - id

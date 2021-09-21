@@ -32,6 +32,8 @@ properties:
       - inactive
       - draft
     default: active
+  cover_image_url:
+    type: string
 required:
   - id
   - title
