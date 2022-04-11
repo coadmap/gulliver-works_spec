@@ -1,0 +1,28 @@
+{
+  "name": "gulliver-works_spec",
+  "version": "1.0.0",
+  "description": "NameSpaceごとにモックサーバーを立ててあります。 下記のオリジンをbaseURLにして、各エンドポイントにリクエストを送れば、レスポンスが返ってきます。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coadmap/gulliver-works_spec.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coadmap/gulliver-works_spec/issues"
+  },
+  "homepage": "https://github.com/coadmap/gulliver-works_spec#readme",
+  "dependencies": {
+    "@aspida/axios": "^1.9.1",
+    "axios": "^0.26.1"
+  },
+  "devDependencies": {
+    "@openapitools/openapi-generator-cli": "^2.4.26",
+    "openapi-generator": "^0.1.39"
+  }
+}

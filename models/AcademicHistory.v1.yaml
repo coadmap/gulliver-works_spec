@@ -35,3 +35,4 @@ required:
   - until_date
   - type
 description: dateの日付は月初で統一
+x-internal: false
