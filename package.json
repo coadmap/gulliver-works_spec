@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "build": "swagger-cli bundle -o ./build/openapi_application.yaml -t yaml ./reference/Application.v1.yaml && swagger-cli bundle -o ./build/openapi_auth.yaml -t yaml ./reference/Auth.v1.yaml && swagger-cli bundle -o ./build/openapi_enterprise.yaml -t yaml ./reference/Enterprise.v1.yaml && swagger-cli bundle -o ./build/openapi_enterprise_auth.yaml -t yaml ./reference/EnterpriseAuth.v1.yaml"
+  },
+  "devDependencies": {
+    "@apidevtools/swagger-cli": "^4.0.4"
+  }
+}
